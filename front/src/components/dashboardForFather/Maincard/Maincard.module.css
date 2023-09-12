@@ -1,0 +1,37 @@
+.profilepic {
+  width: 40px;
+  height: 40px;
+  margin-right: auto;
+}
+.box {
+  position: absolute;
+  right: 30%;
+  width: 250px;
+  height: 200px;
+  border-radius: 15px;
+  font-family: Raleway;
+  background: linear-gradient(119.15deg, #89ff9f -13.54%, #61d27f 118.09%);
+  box-shadow: 9.71163px 11.654px 77.693px rgba(73, 226, 108, 0.08);
+  text-align: center;
+  margin: 30px;
+  animation: animate-in 1s ease-out forwards;
+  box-shadow: 0 0 8px #999;
+}
+@media (max-width: 750px) {
+  .box {
+    right: 0;
+    left: 10%;
+  }
+}
+
+.cardhead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 10px;
+}
+h2 {
+  margin-top: 30px;
+}

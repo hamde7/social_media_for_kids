@@ -1,0 +1,35 @@
+.minicard {
+  position: relative;
+  border-radius: 1.02106rem;
+  background: linear-gradient(
+    268deg,
+    rgba(12, 202, 66, 0.667) 83.12%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  margin-bottom: 25px;
+  border-radius: 20px;
+  min-width: 200px;
+  max-width: 350px;
+  padding: 5px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-left: 20px;
+  transition: 400ms;
+}
+.minicard:hover {
+  transform: scale(1.1, 1.1);
+}
+.profilepic {
+  width: 40px;
+  height: 40px;
+  margin-right: auto;
+  border-radius: 50px;
+}
+.minicardtext {
+  font-weight: bold;
+  margin-right: 20px;
+  margin-top: 12px;
+}
