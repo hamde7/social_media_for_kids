@@ -1,0 +1,28 @@
+{
+    "posts":[
+        {
+            "postID": 1,
+            "author":"bisher",
+            "body" :"Just had the best sushi of my life at this new restaurant in town! Highly recommend it to all my foodie friends 🍣👌 #sushi #foodie #yum",
+            "ImageForPost":"http://localhost:5173/src/assets/FG.jpg"
+        },
+        {
+            "postID": 2,
+            "author":"Hamdie",
+            "body" :"Feeling grateful for my amazing friends who always know how to make me laugh and lift me up when I'm feeling down 💕 #friendshipgoals #grateful Can't believe it's already been a year since I graduated college! Time flies so fast 😱🎓 #throwbackthursday #collegegrad",
+            "ImageForPost":"http://localhost:5173/src/assets/FG.jpg"
+        },
+        {
+            "postID": 3,
+            "author":"Baraa",
+            "body" :"Just finished reading the most incredible book - it's a must-read for anyone who loves mystery and suspense! 📚🔍 #bookworm #readinglist",
+            "ImageForPost":"http://localhost:5173/src/assets/FG.jpg"
+        },
+        {
+            "postID": 4,
+            "author":"Akram",
+            "body" :"Had an amazing weekend exploring the great outdoors with my family - nothing beats fresh air and sunshine ☀️🌳 #familytime #naturelover",
+            "ImageForPost":"http://localhost:5173/src/assets/FG.jpg"
+        }
+    ]
+}

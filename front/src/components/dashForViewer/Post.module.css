@@ -1,0 +1,72 @@
+.Post {
+  border: 2px var(--SecondColor) solid;
+  padding: 3px;
+  margin: 5px auto;
+  border-radius: 10px;
+  width: 90%;
+  color: #333;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+.Post > div:first-child {
+  width: 100%;
+  margin: 4px;
+}
+.Post > img {
+  width: 100%;
+}
+
+.button1 {
+  background-color: rgb(46, 255, 140);
+}
+.button2 {
+  background-color: rgb(255, 93, 93);
+}
+
+.show-more {
+  margin: 10px 0;
+  display: inline-block;
+}
+
+button.showMore {
+  background-color: #235bad;
+  margin-left: 33%;
+}
+.pHeight {
+  min-height: 100px;
+}
+
+.showMore {
+  margin: 10px 0;
+}
+.dflex {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .dflex {
+    flex-direction: column;
+  }
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
