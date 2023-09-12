@@ -1,0 +1,135 @@
+.Post {
+  border: 2px var(--SecondColor) solid;
+  padding: 3px;
+  margin: 5px auto;
+  border-radius: 10px;
+  width: 90%;
+  /* max-height: 300px; */
+  color: #333;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+.Post > div:first-child {
+  width: 100%;
+  margin: 4px;
+}
+.Post > img {
+  width: 100%;
+}
+
+.button1 {
+  background-color: rgb(22, 212, 107);
+}
+.button2 {
+  background-color: rgb(182, 42, 42);
+}
+
+.show-more {
+  margin: 10px 0;
+  display: inline-block;
+}
+
+button.showMore {
+  background-color: #235bad;
+}
+.pHeight {
+  min-height: 100px;
+}
+
+.showMore {
+  margin: 10px 0;
+}
+.dflex {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .dflex {
+    flex-direction: column;
+  }
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+.MainAreaForPosts {
+  margin-top: 60px;
+  width: 100%;
+}
+
+.addPostBtn {
+  color: #fff;
+  background-color: #20df7f;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  display: block;
+  border: 0;
+  padding: 10px;
+  font-size: 19px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.addPostSection {
+  width: 90%;
+  max-width: 100%;
+  margin: 10px auto;
+}
+
+.addPostSection .form {
+  display: none;
+  flex-direction: column;
+  margin: 10px 0;
+  overflow: hidden;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+.addPostSection .form.active {
+  display: flex;
+}
+
+.addPostSection .form textarea {
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  min-height: 70px;
+  resize: vertical;
+}
+
+.addPostSection .form span {
+  color: #20df7f;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
