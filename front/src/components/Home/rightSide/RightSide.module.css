@@ -1,0 +1,109 @@
+.holeSide{
+    background-color: #F5F5F5;
+    /* border-left: 3px red solid; */
+    position: fixed;
+    top : 0px;
+    right : 0px;
+    bottom: 0px;
+    width: 25vw;
+    border-left:2px var(--SecondColor) solid ;
+}
+.holeSide p{
+    text-align: center;
+    color : var(--SecondColor)
+}
+.holeSide > div > span{
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    margin: 4px;
+    border-radius: 30px;
+}
+.holeSide > div > span:first-child{
+    background-color: #f96057;
+}
+.holeSide > div > span:nth-child(2){
+    background-color: #f8ce52;
+}
+.holeSide > div > span:last-child{
+    background-color: #5fcf65;
+}
+.buttonSection{
+    padding-left: 10px; 
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    border-bottom: 2px solid red;
+}
+.buttonSection div{
+    width: 100%;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 10px;
+}
+.buttonSection button {
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    background-color: var(--SecondColor);
+    border : none;
+    margin : 4px;
+    padding : 15px;
+}
+.buttonSection div:last-child{
+    width: 100%;
+}
+.buttonSection div:last-child button{
+    width: 100px;
+    height: 100px;
+    margin-left: calc(50% + 44px);
+    background: #524343;
+    transition: 200ms;
+}
+.buttonSection div:last-child button:hover{
+    box-shadow: 0 0 5px rgb(103, 80, 80), 0 0 25px rgb(134, 114, 114), 0 0 50px rgb(101, 90, 90), 0 0 100px rgb(163, 130, 130)
+}
+.buttons > :first-child {
+    background: #ff0101;
+    transition: 200ms;
+  }
+.buttons > :first-child:hover {
+    box-shadow: 0 0 5px rgb(221, 9, 9), 0 0 25px rgb(214, 0, 0), 0 0 50px rgb(255, 17, 17), 0 0 100px rgb(255, 0, 0)
+  }
+  .buttons > :nth-child(2) {
+    background: #ffa800;
+    transition: 200ms;
+  }
+  .buttons > :nth-child(2):hover {
+    box-shadow: 0 0 5px rgb(221, 154, 9), 0 0 25px rgb(199, 143, 1), 0 0 50px rgb(230, 203, 5), 0 0 100px rgb(255, 217, 0)
+  }
+  .buttons > :nth-child(3) {
+    background: #00ff19;
+    transition: 200ms;
+  }
+  .buttons > :nth-child(3):hover {
+    box-shadow: 0 0 5px rgb(60, 219, 16), 0 0 25px rgb(4, 189, 56), 0 0 50px rgb(24, 251, 73), 0 0 100px rgb(31, 255, 6)
+  }
+.morebuttons > :first-child {
+    background: #e707de;
+    transition: 200ms;
+  }
+.morebuttons > :first-child:hover {
+   box-shadow: 0 0 5px rgb(220, 23, 231), 0 0 25px rgb(184, 6, 172), 0 0 50px rgb(239, 20, 213), 0 0 100px rgb(234, 5, 255)
+  }
+  .morebuttons > :nth-child(2) {
+    background: #03e8e8;
+    transition: 200ms;
+  }
+  .morebuttons > :nth-child(2):hover {
+    box-shadow: 0 0 5px rgb(33, 229, 246), 0 0 25px rgb(10, 158, 178), 0 0 50px rgb(9, 199, 202), 0 0 100px rgb(8, 231, 251)
+  }
+  .morebuttons > :nth-child(3) {
+    background: #e81379;
+    transition: 200ms;
+  }
+  .morebuttons > :nth-child(3):hover {
+    box-shadow: 0 0 5px rgb(230, 38, 156), 0 0 25px rgb(189, 8, 134), 0 0 50px rgb(242, 30, 203), 0 0 100px rgb(255, 4, 188)
+  }
+  

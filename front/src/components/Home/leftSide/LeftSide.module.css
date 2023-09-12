@@ -1,0 +1,12 @@
+.main{
+        background-color: #F5F5F5;
+        position: fixed;
+        top : 0px;
+        left : 0px;
+        bottom: 0px;
+        width: 25vw;
+        padding: 0px;
+        border-right: var(--SecondColor) solid 2px;
+        /* z-index: 1; */
+
+}
